@@ -4,7 +4,7 @@ def medianSlidingWindow(nums: List[int], k: int) -> List[float]:
     if not nums or not k:
         return []
 
-    lo = []  
+    lo = []   
     hi = []  
     to_remove = defaultdict(int)
 
